@@ -31,7 +31,7 @@ function RouteComponent() {
 
   return (
     <div className="pt-20 px-4 md:px-16">
-      <Card className="p-8 mb-8 max-w-full md:max-w-2xl mx-auto">
+      <Card className="p-8 mb-8 max-w-full md:max-w-2xl mx-auto shadow-xl">
         {loading ? (
           <div className="text-center py-12">
             <div className="animate-spin h-8 w-8 border-4 border-primary border-t-transparent rounded-full mx-auto"></div>
@@ -51,12 +51,12 @@ function RouteComponent() {
           </p>
         )}
       </Card>
-      <div className="flex justify-center fixed bottom-16 w-full">
+      <div className="fixed bottom-16 w-full mx-auto flex justify-center">
         <Button
           onClick={fetchRandomQuote}
           disabled={loading}
           size="lg"
-          className="px-8"
+          className="px-4 text-black shadow-xl"
         >
           {loading ? 'Loading...' : 'Get Another Quote'}
         </Button>

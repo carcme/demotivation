@@ -2,6 +2,7 @@ import { Moon, Sun } from 'lucide-react'
 import { Button } from '@/components/shadcn/button'
 import { useTheme } from '@/lib/theme-context'
 import { Link } from '@tanstack/react-router'
+import DemotIcon from '@/assets/demot-icon'
 
 export function Header() {
   const { theme, toggleTheme } = useTheme()
@@ -11,15 +12,17 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between px-4">
         <div className="flex items-center gap-6">
           <a href="/" className="flex items-center space-x-2">
-            <span className="font-bold text-xl">demotivation</span>
+            <span className="font-bold text-xl">
+              <DemotIcon className="fill-muted-foreground" h={30} w={30} />
+            </span>
           </a>
         </div>
 
         <Link to="/quote">
-          <Button>quotes</Button>
+          <Button variant={'outline'}>quotes</Button>
         </Link>
         <Link to="/apis">
-          <Button variant={'outline'}>API's</Button>
+          <Button variant={'ghost'}>API's</Button>
         </Link>
         <nav className="flex items-center gap-4">
           <Button

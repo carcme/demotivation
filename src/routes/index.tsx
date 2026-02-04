@@ -1,3 +1,4 @@
+import DemotIcon from '@/assets/demot-icon'
 import { Button } from '@/components/shadcn/button'
 import { createFileRoute, Link } from '@tanstack/react-router'
 
@@ -11,7 +12,11 @@ function App() {
         <p className="text-muted-foreground text-lg">
           Because sometimes you need a reality check
         </p>
-        <Link to="/quote" className="mt-10 inline-block">
+
+        <div className="flex justify-center py-12 ">
+          <DemotIcon className="fill-muted-foreground" h={50} w={50} />
+        </div>
+        <Link to="/quote">
           <Button variant={'outline'}>View Quotes</Button>
         </Link>
       </div>
