@@ -672,8 +672,29 @@ export const DemotList = [
   },
   { id: 128, quote: "You're not special", author: 'Anonymous' },
   { id: 129, quote: "Don't start believing in yourself", author: 'Anonymous' },
-  { id: 130, quote: "You family only loves you because they have to", author: 'Anonymous' },
+  {
+    id: 130,
+    quote: 'You family only loves you because they have to',
+    author: 'Anonymous',
+  },
   { id: 131, quote: "Zombies eat brains. You're safe", author: 'Anonymous' },
+  {
+    id: 132,
+    quote:
+      'I’m not saying I hate you, but I would unplug your life supprt to charge my phone',
+    author: 'Anonymous',
+  },
+  {
+    id: 133,
+    quote:
+      'I could explain it to you but I have neither the time nor the crayons',
+    author: 'S.Abendroth',
+  },
+  {
+    id: 134,
+    quote: 'I could agree with you but then we’d both be wrong',
+    author: 'S.Abendroth',
+  },
 
   //   { id: 132, quote: "xxxx", author: 'Anonymous' },
 ]
