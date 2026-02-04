@@ -1,369 +1,679 @@
 export const DemotList = [
-    {
+  {
     id: 1,
-    quote: "Trying is the first step toward failure.",
-    author: "Homer Simpson"
-    },
-    {
+    quote: 'Trying is the first step toward failure.',
+    author: 'Homer Simpson',
+  },
+  {
     id: 2,
-    quote: "Not everything is a lesson. Sometimes you just fail.",
-    author: "Dwight Schrute"
-    },
-    {
+    quote: 'Not everything is a lesson. Sometimes you just fail.',
+    author: 'Dwight Schrute',
+  },
+  {
     id: 3,
-    quote: "Always remember that you are absolutely unique. Just like everyone else.",
-    author: "Margaret Mead"
-    },
-    {
+    quote:
+      'Always remember that you are absolutely unique. Just like everyone else.',
+    author: 'Margaret Mead',
+  },
+  {
     id: 4,
-    quote: "If at first you don't succeed, try, try again. Then quit. No use being a damn fool about it.",
-    author: "W. C. Fields"
-    },
-    {
+    quote:
+      "If at first you don't succeed, try, try again. Then quit. No use being a damn fool about it.",
+    author: 'W. C. Fields',
+  },
+  {
     id: 5,
-    quote: "It could be that your purpose in life is to serve as a warning to others.",
-    author: "Ashleigh Brilliant"
-    },
-    {
+    quote:
+      'It could be that your purpose in life is to serve as a warning to others.',
+    author: 'Ashleigh Brilliant',
+  },
+  {
     id: 6,
-    quote: "Those who doubt your ability probably have a valid reason.",
-    author: "unknown"
-    },
-    {
+    quote: 'Those who doubt your ability probably have a valid reason.',
+    author: 'unknown',
+  },
+  {
     id: 7,
-    quote: "“The best things in life are actually really expensive.”",
-    author: "unknown"
-    },
-    {
+    quote: '“The best things in life are actually really expensive.”',
+    author: 'unknown',
+  },
+  {
     id: 8,
-    quote: "Just imagine how terrible it might have been if we’d been at all competent.",
-    author: "Terry Pratchett"
-    },
-    {
+    quote:
+      'Just imagine how terrible it might have been if we’d been at all competent.',
+    author: 'Terry Pratchett',
+  },
+  {
     id: 9,
-    quote: "I’ve developed a new philosophy. I only dread one day at a time.",
-    author: "Charles M. Schulz"
-    },
-    {
+    quote: 'I’ve developed a new philosophy. I only dread one day at a time.',
+    author: 'Charles M. Schulz',
+  },
+  {
     id: 10,
-    quote: "Hope is the first step on the road to disappointment.",
-    author: "Cassern S. Goto"
-    },
-    {
+    quote: 'Hope is the first step on the road to disappointment.',
+    author: 'Cassern S. Goto',
+  },
+  {
     id: 11,
-    quote: "“Everything happens for a reason. Sometimes the reason is you're stupid and make bad decisions.",
-    author: "Marion G. Harmon"
-    },
-    {
+    quote:
+      "“Everything happens for a reason. Sometimes the reason is you're stupid and make bad decisions.",
+    author: 'Marion G. Harmon',
+  },
+  {
     id: 12,
-    quote: "Everyone has a purpose in life. Perhaps yours is watching television.",
-    author: "David Letterman"
-    },
-    {
+    quote:
+      'Everyone has a purpose in life. Perhaps yours is watching television.',
+    author: 'David Letterman',
+  },
+  {
     id: 13,
-    quote: "Your life can’t fall apart if you never had it together.",
-    author: "Anonymous"
-    },
-    {
+    quote: 'Your life can’t fall apart if you never had it together.',
+    author: 'Anonymous',
+  },
+  {
     id: 14,
-    quote: "The worst part of success is trying to find someone who is happy for you.",
-    author: "Bette Midler"
-    },
-    {
+    quote:
+      'The worst part of success is trying to find someone who is happy for you.',
+    author: 'Bette Midler',
+  },
+  {
     id: 15,
-    quote: "The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.",
-    author: "Terry Pratchett"
-    },
-    {
+    quote:
+      'The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.',
+    author: 'Terry Pratchett',
+  },
+  {
     id: 16,
-    quote: "The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.",
-    author: "Terry Pratchett"
-    },
-    {
+    quote:
+      'Change is not a four letter word… but often your reaction to it is!',
+    author: 'Jeffrey Gitomer',
+  },
+  {
     id: 17,
-    quote: "Those who doubt your ability probably have a valid reason.",
-    author: "Anonymous"
-    },
-    {
+    quote:
+      'I always wanted to be somebody, but now I realize I should have been more specific.',
+    author: 'Lily Tomlin',
+  },
+  {
     id: 18,
-    quote: "Change is not a four letter word… but often your reaction to it is!",
-    author: "Jeffrey Gitomer"
-    },
-    {
+    quote: 'People say nothing is impossible, but I do nothing every day.',
+    author: 'Winnie the Pooh',
+  },
+  {
     id: 19,
-    quote: "I always wanted to be somebody, but now I realize I should have been more specific.",
-    author: "Lily Tomlin"
-    },
-    {
+    quote:
+      'By working faithfully eight hours a day you may eventually get to be boss and work twelve hours a day.',
+    author: 'Robert Frost',
+  },
+  {
     id: 20,
-    quote: "People say nothing is impossible, but I do nothing every day.",
-    author: "Winnie the Pooh"
-    },
-    {
+    quote:
+      'There are no stupid questions, but there are a LOT of inquisitive idiots.',
+    author: 'Justin Sewell',
+  },
+  {
     id: 21,
-    quote: "By working faithfully eight hours a day you may eventually get to be boss and work twelve hours a day.",
-    author: "Robert Frost"
-    },
-    {
+    quote: 'You can be replaced.',
+    author: 'God',
+  },
+  {
     id: 22,
-    quote: "There are no stupid questions, but there are a LOT of inquisitive idiots.",
-    author: "Justin Sewell"
-    },
-    {
+    quote:
+      'Step out of your comfort zone and then step back in immediately and appreciate how nice and comfy it is.',
+    author: 'Anonymous',
+  },
+  {
     id: 23,
-    quote: "You can be replaced.",
-    author: "God"
-    },
-    {
+    quote:
+      'Dream is the only way for you to escape the miserable reality of your life.',
+    author: 'Anonymous',
+  },
+  {
     id: 24,
-    quote: "Step out of your comfort zone and then step back in immediately and appreciate how nice and comfy it is.",
-    author: "Anonymous"
-    },
-    {
-    id: 25,
-    quote: "Dream is the only way for you to escape the miserable reality of your life.",
-    author: "Anonymous"
-    },
-    {
-    id: 26,
     quote: "If at first you don't succeed, Give up and try something else.",
-    author: "Anonymous"
-    },
-    {
+    author: 'Anonymous',
+  },
+  {
+    id: 25,
+    quote:
+      'Always believe that something wonderful will probably never happen.',
+    author: 'Anonymous',
+  },
+  {
+    id: 26,
+    quote:
+      'Always remember you’re someone’s reason to smile because you’re a joke.',
+    author: 'Anonymous',
+  },
+  {
     id: 27,
-    quote: "Always believe that something wonderful will probably never happen.",
-    author: "Anonymous"
-    },
-    {
+    quote:
+      'Dream Big, Set Goals. Write goals on a nice paper and never look at them again.',
+    author: 'Some Guy',
+  },
+  {
     id: 28,
-    quote: "Always remember you’re someone’s reason to smile because you’re a joke.",
-    author: "Anonymous"
-    },
-    {
+    quote:
+      'Every dead body on Mt. Everest was once a highly motivated person, so… maybe calm down.',
+    author: 'Anonymous',
+  },
+  {
     id: 29,
-    quote: "Dream Big, Set Goals. Write goals on a nice paper and never look at them again.",
-    author: "Some Guy"
-    },
-    {    id: 30,
-quote: "Every dead body on Mt. Everest was once a highly motivated person, so… maybe calm down.", author: "Anonymous"},
-    {    id: 31,
-quote: "Everything happens for a reason. Sometimes the reason is you're stupid and make bad decisions.", author: "Anonymous"},
-    {    id: 32,
-quote: "Light travels faster than sound. This is why you appear bright until you open your mouth.", author: "Anonymous"},    
-    {    id: 33,
-quote: "Just because we accept you as you are doesn’t mean we’ve abandoned hope you’ll improve.", author: "Anonymous"},    
-    {    id: 34,
-quote: "If life doesn’t break you today, don’t worry. It will try again tomorrow.", author: "Anonymous"},    
-    {    id: 35,
-quote: "People who say they’ll give 110% don’t understand how percentages work.", author: "Anonymous"},    
-    {    id: 36,
-quote: "A thousand-mile journey starts with one step. Then again, so does falling in a ditch and breaking your neck.", author: "Anonymous"},    
-    {    id: 37,
-quote: "Two things are infinite: the universe and your stupidity; and I'm not sure about the universe.", author: "Anonymous"},    
-    {    id: 38,
-quote: "If you never try anything new, you’ll miss out on many of life’s great disappointments.", author: "Anonymous"},    
-    {    id: 39,
-quote: "Today is the first day of the rest of your life. But so was yesterday, and look how that turned out.", author: "Anonymous"},    
-    {    id: 40,
-quote: "Just because you are unique doesn't mean you are useful.", author: "Anonymous"},    
-    {    id: 41,
-quote: "Oh, you hate your job? Why didn’t you say so? There’s a support group for that. It’s called EVERYBODY, and they meet at the bar.", author: "Anonymous"},    
-    {    id: 42,
-quote: "Multitasking – the art of doing twice as much as you should half as well as you could.", author: "Anonymous"},    
-    {    id: 43,
-quote: "When life knocks you down, stay there and take a nap.", author: "Anonymous"},    
-    {    id: 44,
-quote: "Nothing says ‘you’re a loser’ more than owning a motivational poster about being a winner.", author: "Anonymous"},    
-    {    id: 45,
-quote: "Your life can’t fall apart if you never had it together.", author: "Anonymous"},    
-    {    id: 46,
-quote: "Your road to success is always under construction.", author: "Anonymous"},    
-    {    id: 47,
-quote: "Doing nothing is very hard to do… you never know when you’re finished.", author: "Anonymous"},    
-    {    id: 48,
-quote: "There are no stupid questions, but there are a LOT of inquisitive idiots.", author: "Anonymous"},    
-    {    id: 49,
-quote: "Go ahead and take risks – it gives the rest of us something to laugh at.", author: "Anonymous"},    
-    {    id: 50,
-quote: "Every day is Friday when you’re unemployed.", author: "Anonymous"},    
-    {    id: 51,
-quote: "You’re naturally funny because your life is a joke.", author: "Anonymous"},    
-    {    id: 52,
-quote: "The meaning of life is to find your gift. So good luck with that.", author: "Anonymous"},    
-    {    id: 53,
-quote: "Challenging yourself... is a good way to fail.", author: "Anonymous"},    
-    {    id: 54,
-quote: "Life is what happens when you’re busy reading inspirational quotes.", author: "Anonymous"},    
-    {    id: 55,
-quote: "Stubbornness – because somebody has to be right and it might as well be you.", author: "Anonymous"},    
-    {    id: 56,
-quote: "The best things in life are actually really expensive.", author: "Anonymous"},    
-    {    id: 57,
-quote: "Never give up. Never stop trying to exceed your limits. We need the entertainment.", author: "Anonymous"},    
-    {    id: 58,
-quote: "It’s not just Monday. Your whole life sucks.", author: "Anonymous"},    
-    {    id: 59,
-quote: "If you never believe in anything, you’ll never be disappointed.", author: "Anonymous"},    
-    {    id: 60,
-quote: "Hope is the first step on the road to disappointment.", author: "Anonymous"},    
-    {    id: 61,
-quote: "It’s true - hard work never killed anybody. I guess you though, why take the chance.", author: "Anonymous"},    
-    {    id: 62,
-quote: "Every day is a new chance for you to screw up again.", author: "Anonymous"},    
-    {    id: 63,
-quote: "Meetings – none of us is as dumb as all of us.", author: "Anonymous"},    
-    {    id: 64,
-quote: "Get to work – you aren’t being paid to believe in the power of your dreams.", author: "Anonymous"},    
-    {    id: 65,
-quote: "Trying is the first step toward failure.", author: "Anonymous"},    
-    {    id: 66,
-quote: "If you give up on your dreams that may free up some time to get some actual stuff done.", author: "Anonymous"},    
-    {    id: 67,
-quote: "If you changed everything about you, I’d love you just the way you are.", author: "Anonymous"},    
-    {    id: 68,
-quote: "Some people are born losers, you had to work hard to become one.", author: "Anonymous"},    
-    {    id: 69,
-quote: "When work feels overwhelming, remember that you’re going to die.", author: "Anonymous"},    
-    {    id: 70,
-quote: "Don’t cry because it’s over. Smile because if you don’t, everyone will ask you what’s wrong.", author: "Anonymous"},    
-    {    id: 71,
-quote: "The difference between genius and stupidity is that genius has its limits.", author: "Anonymous"},    
-    {    id: 72,
-quote: "You're not lazy. You're just on energy-saving mode.", author: "Anonymous"},    
-    {    id: 73,
-quote: "You're not clumsy. The floor just hates you, the table and chairs are bullies, and the walls get in your way.", author: "Anonymous"},    
-    {    id: 74,
-quote: "You're not arguing, you're just explaining why you're wrong.", author: "Anonymous"},    
-    {    id: 75,
-quote: "You're not fat. You're just on energy-saving mode.", author: "Anonymous"},    
-    {    id: 76,
-quote: "You're not stupid. You're just on energy-saving mode.", author: "Anonymous"},    
-    {    id: 77,
-quote: "It’s all downhill from here.", author: "Anonymous"},    
-    {    id: 78,
-quote: "He who laughs last didn’t get the joke.", author: "Anonymous"},    
-    {    id: 79,
-quote: "There’s no limit to what you can be if you lie to yourself.", author: "Anonymous"},    
-    {    id: 80,
-quote: "There is plenty of fish in the sea, none of them want to date you either.", author: "Anonymous"},    
-    {    id: 81,
-quote: "Everyone’s good at something, and you’re the best at not being good at anything.", author: "Anonymous"},    
-    {    id: 82,
-quote: "Pulling together – only works when you’re not jerking in opposite directions like idiots.", author: "Anonymous"},    
-    {    id: 83,
-quote: "Success is just failure that hasn't happened yet.", author: "Anonymous"},    
-    {    id: 84,
-quote: "Life is hard, but it’s even harder if you’re stupid.", author: "Anonymous"},    
-    {    id: 85,
-quote: "The only thing all of your failures have in common is you.", author: "Anonymous"},    
-    {    id: 86,
-quote: "Will it be easy? Nope. Worth it? Absolutely not!", author: "Anonymous"},    
-    {    id: 87,
-quote: "I’m not lazy. I’m just highly motivated to do nothing.", author: "Anonymous"},    
-    {    id: 88,
-quote: "Dare to soar – with enough hot air, even losers like you can fly.", author: "Anonymous"},    
-    {    id: 89,
-quote: "You are a child of the universe and the universe is a deadbeat dad.", author: "Anonymous"},    
-    {    id: 90,
-quote: "I’d encourage most people to be themselves. For you, that’s clearly the wrong strategy.", author: "Anonymous"},    
-    {    id: 91,
-quote: "You’re only as cheap as your most recent inspirational quote.", author: "Anonymous"},    
-    {    id: 92,
-quote: "Dare to be different because there’s always room for another annoying non-conformist like you on the unemployment line.", author: "Anonymous"},    
-    {    id: 93,
-quote: "Your life is mostly just learning how to lose.", author: "Anonymous"},    
-    {    id: 94,
-quote: "Happiness is just sadness that hasn’t happened yet.", author: "Anonymous"},    
-    {    id: 95,
-quote: "Nobody can stop you but only because you haven’t started yet.", author: "Anonymous"},    
-    {    id: 96,
-quote: "Believe in yourself – because the rest of us think you’re an idiot.", author: "Anonymous"},    
-    {    id: 97,
-quote: "Today will be a day like every other day..", author: "Anonymous"},    
-    {    id: 98,
-quote: "Don’t rest until you’ve complained about everything.", author: "Anonymous"},    
-    {    id: 99,
-quote: "It is what it is. And it’s not good.", author: "Anonymous"},    
-    {    id: 100,
-quote: "Try hard and don’t worry if you fail because everyone expected that.", author: "Anonymous"},    
-    {    id: 101,
-quote: "They say money talks. All yours says is goodbye", author: "Anonymous"},    
-    {    id: 102,
-quote: "Dream small – It’s your only hope for success, really", author: "Anonymous"},    
-    {    id: 103,
-quote: "Please take your feelings and tuck them back inside your heart", author: "Anonymous"},    
-    {    id: 104,
-quote: "Flattery – if you want to get to the top, prepare to kiss a lot of the bottom", author: "Anonymous"},    
-    {    id: 105,
-quote: "If at first, you don’t succeed. Give up and try something else", author: "Anonymous"},    
-    {    id: 106,
-quote: "Always believe that something wonderful will probably never happen", author: "Anonymous"},    
-    {    id: 107,
-quote: "Dream is the only way for you to escape the miserable reality of your life", author: "Anonymous"},    
-    {    id: 108,
-quote: "Limitations – until you spread your wings, you’ll have no idea how far you can walk", author: "Anonymous"},    
-    {    id: 109,
-quote: "Sorry I didn’t respond to your text. It’s just that I don’t care about your feelings", author: "Anonymous"},    
-    {    id: 110,
-quote: "Because there’s nothing standing between you and your goal but a total lack of talent and complete failure of will", author: "Anonymous"},    
-    {    id: 111,
-quote: "I’m not saying I hate you, but I would push you in front of a moving bus and enjoy the show", author: "Anonymous"},    
-    {    id: 112,
-quote: "You miss 100% of the shots you do take also", author: "Anonymous"},    
-    {    id: 113,
-quote: "I’ll get coffee with you but only because I love coffee", author: "Anonymous"},    
-    {    id: 114,
-quote: "Whenever you feel the need to exercise, you lay down until it goes away", author: "Anonymous"},    
-    {    id: 115,
-quote: "Some are born great, some achieve greatness, and some wind up like you", author: "Anonymous"},    
-    {    id: 116,
-quote: "Ambition – the journey of a thousand miles sometimes ends very, very, very badly", author: "Anonymous"},    
-    {    id: 117,
-quote: "Carpe Nothing", author: "Anonymous"},    
-    {    id: 118,
-quote: "The worst things in your life probably haven’t happened to you yet", author: "Anonymous"},    
-    {    id: 119,
-quote: "Be afraid to depend on others when you need to", author: "Anonymous"},    
-    {    id: 120,
-quote: "Your life only goes up so you can fall from a new height", author: "Anonymous"},    
-    {    id: 121,
-quote: "Television – why talk to your kids when you can watch with your kids?", author: "Anonymous"},    
-    {    id: 122,
-quote: "Be the bridge – that way we can walk all over you on your way to better places", author: "Anonymous"},    
-    {    id: 123,
-quote: "Boldly going nowhere", author: "Anonymous"},    
-    {    id: 124,
-quote: "Started from the bottom and still at the bottom", author: "Anonymous"},    
-    {    id: 125,
-quote: "You can have results or excuses. Excuses it is", author: "Anonymous"},    
-    {    id: 126,
-quote: "You're too old to be this stupid", author: "Anonymous"},    
-    {    id: 127,
-quote: "Your dumb arse knew better and your dumb arse still did it", author: "Anonymous"},    
-    {    id: 128,
-quote: "Don't let the bastards cheer you up", author: "Anonymous"},    
-    {    id: 129,
-quote: "Have a great day... or don't. No one cares anyway", author: "Anonymous"},    
-    {    id: 130,
-quote: "Why stand out when you were born to blend in?", author: "Anonymous"},    
-    {    id: 131,
-quote: "Never. Give Up", author: "Anonymous"},    
-    {    id: 132,
-quote: "There's always time to complain", author: "Anonymous"},    
-    {    id: 133,
-quote: "You don't have hates. No one knows who you are", author: "Anonymous"},    
-    {    id: 134,
-quote: "Every morning, wake up and scream your dreams into the garbage where they belong", author: "Anonymous"},    
-    {    id: 135,
-quote: "Before you judge someone else, remember you're a piece of shit too", author: "Anonymous"},    
-    {    id: 136,
-quote: "Its a beautiful day to be miserable", author: "Anonymous"},    
-    {    id: 137,
-quote: "Its a beautiful day to shut the fuck up", author: "Anonymous"},    
-    {    id: 138,
-quote: "You're not special", author: "Anonymous"},    
-    {    id: 139,
-quote: "Don't start believing in yourself", author: "Anonymous"},    
-//     {    id: 140,
-// quote: "xxxx", author: "Anonymous"},    
-        ]
+    quote:
+      "Everything happens for a reason. Sometimes the reason is you're stupid and make bad decisions.",
+    author: 'Anonymous',
+  },
+  {
+    id: 30,
+    quote:
+      'Light travels faster than sound. This is why you appear bright until you open your mouth.',
+    author: 'Anonymous',
+  },
+  {
+    id: 31,
+    quote:
+      'Just because we accept you as you are doesn’t mean we’ve abandoned hope you’ll improve.',
+    author: 'Anonymous',
+  },
+  {
+    id: 32,
+    quote:
+      'If life doesn’t break you today, don’t worry. It will try again tomorrow.',
+    author: 'Anonymous',
+  },
+  {
+    id: 33,
+    quote:
+      'People who say they’ll give 110% don’t understand how percentages work.',
+    author: 'Anonymous',
+  },
+  {
+    id: 34,
+    quote:
+      'A thousand-mile journey starts with one step. Then again, so does falling in a ditch and breaking your neck.',
+    author: 'Anonymous',
+  },
+  {
+    id: 35,
+    quote:
+      "Two things are infinite: the universe and your stupidity; and I'm not sure about the universe.",
+    author: 'Anonymous',
+  },
+  {
+    id: 36,
+    quote:
+      'If you never try anything new, you’ll miss out on many of life’s great disappointments.',
+    author: 'Anonymous',
+  },
+  {
+    id: 37,
+    quote:
+      'Today is the first day of the rest of your life. But so was yesterday, and look how that turned out.',
+    author: 'Anonymous',
+  },
+  {
+    id: 38,
+    quote: "Just because you are unique doesn't mean you are useful.",
+    author: 'Anonymous',
+  },
+  {
+    id: 39,
+    quote:
+      'Oh, you hate your job? Why didn’t you say so? There’s a support group for that. It’s called EVERYBODY, and they meet at the bar.',
+    author: 'Anonymous',
+  },
+  {
+    id: 40,
+    quote:
+      'Multitasking – the art of doing twice as much as you should half as well as you could.',
+    author: 'Anonymous',
+  },
+  {
+    id: 41,
+    quote: 'When life knocks you down, stay there and take a nap.',
+    author: 'Anonymous',
+  },
+  {
+    id: 42,
+    quote:
+      'Nothing says ‘you’re a loser’ more than owning a motivational poster about being a winner.',
+    author: 'Anonymous',
+  },
+  {
+    id: 43,
+    quote: 'Your road to success is always under construction.',
+    author: 'Anonymous',
+  },
+  {
+    id: 44,
+    quote:
+      'Doing nothing is very hard to do… you never know when you’re finished.',
+    author: 'Anonymous',
+  },
+  {
+    id: 45,
+    quote:
+      'Go ahead and take risks – it gives the rest of us something to laugh at.',
+    author: 'Anonymous',
+  },
+  {
+    id: 46,
+    quote: 'Every day is Friday when you’re unemployed.',
+    author: 'Anonymous',
+  },
+  {
+    id: 47,
+    quote: 'You’re naturally funny because your life is a joke.',
+    author: 'Anonymous',
+  },
+  {
+    id: 48,
+    quote: 'The meaning of life is to find your gift. So good luck with that.',
+    author: 'Anonymous',
+  },
+  {
+    id: 49,
+    quote: 'Challenging yourself... is a good way to fail.',
+    author: 'Anonymous',
+  },
+  {
+    id: 50,
+    quote:
+      'Life is what happens when you’re busy reading inspirational quotes.',
+    author: 'Anonymous',
+  },
+  {
+    id: 51,
+    quote:
+      'Stubbornness – because somebody has to be right and it might as well be you.',
+    author: 'Anonymous',
+  },
+  {
+    id: 52,
+    quote: 'The best things in life are actually really expensive.',
+    author: 'Anonymous',
+  },
+  {
+    id: 53,
+    quote:
+      'Never give up. Never stop trying to exceed your limits. We need the entertainment.',
+    author: 'Anonymous',
+  },
+  {
+    id: 54,
+    quote: 'It’s not just Monday. Your whole life sucks.',
+    author: 'Anonymous',
+  },
+  {
+    id: 55,
+    quote: 'If you never believe in anything, you’ll never be disappointed.',
+    author: 'Anonymous',
+  },
+  {
+    id: 56,
+    quote:
+      'It’s true - hard work never killed anybody. I guess you though, why take the chance.',
+    author: 'Anonymous',
+  },
+  {
+    id: 57,
+    quote: 'Every day is a new chance for you to screw up again.',
+    author: 'Anonymous',
+  },
+  {
+    id: 58,
+    quote: 'Meetings – none of us is as dumb as all of us.',
+    author: 'Anonymous',
+  },
+  {
+    id: 59,
+    quote:
+      'Get to work – you aren’t being paid to believe in the power of your dreams.',
+    author: 'Anonymous',
+  },
+  {
+    id: 60,
+    quote:
+      'If you give up on your dreams that may free up some time to get some actual stuff done.',
+    author: 'Anonymous',
+  },
+  {
+    id: 61,
+    quote:
+      'If you changed everything about you, I’d love you just the way you are.',
+    author: 'Anonymous',
+  },
+  {
+    id: 62,
+    quote: 'Some people are born losers, you had to work hard to become one.',
+    author: 'Anonymous',
+  },
+  {
+    id: 63,
+    quote: 'When work feels overwhelming, remember that you’re going to die.',
+    author: 'Anonymous',
+  },
+  {
+    id: 64,
+    quote:
+      'Don’t cry because it’s over. Smile because if you don’t, everyone will ask you what’s wrong.',
+    author: 'Anonymous',
+  },
+  {
+    id: 65,
+    quote:
+      'The difference between genius and stupidity is that genius has its limits.',
+    author: 'Anonymous',
+  },
+  {
+    id: 66,
+    quote: "You're not lazy. You're just on energy-saving mode.",
+    author: 'Anonymous',
+  },
+  {
+    id: 67,
+    quote:
+      "You're not clumsy. The floor just hates you, the table and chairs are bullies, and the walls get in your way.",
+    author: 'Anonymous',
+  },
+  {
+    id: 68,
+    quote: "You're not arguing, you're just explaining why you're wrong.",
+    author: 'Anonymous',
+  },
+  {
+    id: 69,
+    quote: "You're not fat. You're just on energy-saving mode.",
+    author: 'Anonymous',
+  },
+  {
+    id: 70,
+    quote: "You're not stupid. You're just on energy-saving mode.",
+    author: 'Anonymous',
+  },
+  { id: 71, quote: 'It’s all downhill from here.', author: 'Anonymous' },
+  {
+    id: 72,
+    quote: 'He who laughs last didn’t get the joke.',
+    author: 'Anonymous',
+  },
+  {
+    id: 73,
+    quote: 'There’s no limit to what you can be if you lie to yourself.',
+    author: 'Anonymous',
+  },
+  {
+    id: 74,
+    quote:
+      'There is plenty of fish in the sea, none of them want to date you either.',
+    author: 'Anonymous',
+  },
+  {
+    id: 75,
+    quote:
+      'Everyone’s good at something, and you’re the best at not being good at anything.',
+    author: 'Anonymous',
+  },
+  {
+    id: 76,
+    quote:
+      'Pulling together – only works when you’re not jerking in opposite directions like idiots.',
+    author: 'Anonymous',
+  },
+  {
+    id: 77,
+    quote: "Success is just failure that hasn't happened yet.",
+    author: 'Anonymous',
+  },
+  {
+    id: 78,
+    quote: 'Life is hard, but it’s even harder if you’re stupid.',
+    author: 'Anonymous',
+  },
+  {
+    id: 79,
+    quote: 'The only thing all of your failures have in common is you.',
+    author: 'Anonymous',
+  },
+  {
+    id: 80,
+    quote: 'Will it be easy? Nope. Worth it? Absolutely not!',
+    author: 'Anonymous',
+  },
+  {
+    id: 81,
+    quote: 'I’m not lazy. I’m just highly motivated to do nothing.',
+    author: 'Anonymous',
+  },
+  {
+    id: 82,
+    quote: 'Dare to soar – with enough hot air, even losers like you can fly.',
+    author: 'Anonymous',
+  },
+  {
+    id: 83,
+    quote:
+      'You are a child of the universe and the universe is a deadbeat dad.',
+    author: 'Anonymous',
+  },
+  {
+    id: 84,
+    quote:
+      'I’d encourage most people to be themselves. For you, that’s clearly the wrong strategy.',
+    author: 'Anonymous',
+  },
+  {
+    id: 85,
+    quote: 'You’re only as cheap as your most recent inspirational quote.',
+    author: 'Anonymous',
+  },
+  {
+    id: 86,
+    quote:
+      'Dare to be different because there’s always room for another annoying non-conformist like you on the unemployment line.',
+    author: 'Anonymous',
+  },
+  {
+    id: 87,
+    quote: 'Your life is mostly just learning how to lose.',
+    author: 'Anonymous',
+  },
+  {
+    id: 88,
+    quote: 'Happiness is just sadness that hasn’t happened yet.',
+    author: 'Anonymous',
+  },
+  {
+    id: 89,
+    quote: 'Nobody can stop you but only because you haven’t started yet.',
+    author: 'Anonymous',
+  },
+  {
+    id: 90,
+    quote:
+      'Believe in yourself – because the rest of us think you’re an idiot.',
+    author: 'Anonymous',
+  },
+  {
+    id: 91,
+    quote: 'Today will be a day like every other day..',
+    author: 'Anonymous',
+  },
+  {
+    id: 92,
+    quote: 'Don’t rest until you’ve complained about everything.',
+    author: 'Anonymous',
+  },
+  {
+    id: 93,
+    quote: 'It is what it is. And it’s not good.',
+    author: 'Anonymous',
+  },
+  {
+    id: 94,
+    quote:
+      'Try hard and don’t worry if you fail because everyone expected that.',
+    author: 'Anonymous',
+  },
+  {
+    id: 95,
+    quote: 'They say money talks. All yours says is goodbye',
+    author: 'Anonymous',
+  },
+  {
+    id: 96,
+    quote: 'Dream small – It’s your only hope for success, really',
+    author: 'Anonymous',
+  },
+  {
+    id: 97,
+    quote: 'Please take your feelings and tuck them back inside your heart',
+    author: 'Anonymous',
+  },
+  {
+    id: 98,
+    quote:
+      'Flattery – if you want to get to the top, prepare to kiss a lot of the bottom',
+    author: 'Anonymous',
+  },
+  {
+    id: 99,
+    quote:
+      'Sorry I didn’t respond to your text. It’s just that I don’t care about your feelings',
+    author: 'Anonymous',
+  },
+  {
+    id: 100,
+    quote:
+      'Because there’s nothing standing between you and your goal but a total lack of talent and complete failure of will',
+    author: 'Anonymous',
+  },
+  {
+    id: 101,
+    quote:
+      'I’m not saying I hate you, but I would push you in front of a moving bus and enjoy the show',
+    author: 'Anonymous',
+  },
+  {
+    id: 102,
+    quote: 'You miss 100% of the shots you do take also',
+    author: 'Anonymous',
+  },
+  {
+    id: 103,
+    quote: 'I’ll get coffee with you but only because I love coffee',
+    author: 'Anonymous',
+  },
+  {
+    id: 104,
+    quote:
+      'Whenever you feel the need to exercise, you lay down until it goes away',
+    author: 'Anonymous',
+  },
+  {
+    id: 105,
+    quote:
+      'Some are born great, some achieve greatness, and some wind up like you',
+    author: 'Anonymous',
+  },
+  {
+    id: 106,
+    quote:
+      'Ambition – the journey of a thousand miles sometimes ends very, very, very badly',
+    author: 'Anonymous',
+  },
+  { id: 107, quote: 'Carpe Nothing', author: 'Anonymous' },
+  {
+    id: 108,
+    quote: 'The worst things in your life probably haven’t happened to you yet',
+    author: 'Anonymous',
+  },
+  {
+    id: 109,
+    quote: 'Be afraid to depend on others when you need to',
+    author: 'Anonymous',
+  },
+  {
+    id: 110,
+    quote: 'Your life only goes up so you can fall from a new height',
+    author: 'Anonymous',
+  },
+  {
+    id: 111,
+    quote:
+      'Television – why talk to your kids when you can watch with your kids?',
+    author: 'Anonymous',
+  },
+  {
+    id: 112,
+    quote:
+      'Be the bridge – that way we can walk all over you on your way to better places',
+    author: 'Anonymous',
+  },
+  { id: 113, quote: 'Boldly going nowhere', author: 'Anonymous' },
+  {
+    id: 114,
+    quote: 'Started from the bottom and still at the bottom',
+    author: 'Anonymous',
+  },
+  {
+    id: 115,
+    quote: 'You can have results or excuses. Excuses it is',
+    author: 'Anonymous',
+  },
+  { id: 116, quote: "You're too old to be this stupid", author: 'Anonymous' },
+  {
+    id: 117,
+    quote: 'Your dumb arse knew better and your dumb arse still did it',
+    author: 'Anonymous',
+  },
+  {
+    id: 118,
+    quote: "Don't let the bastards cheer you up",
+    author: 'Anonymous',
+  },
+  {
+    id: 119,
+    quote: "Have a great day... or don't. No one cares anyway",
+    author: 'Anonymous',
+  },
+  {
+    id: 120,
+    quote: 'Why stand out when you were born to blend in?',
+    author: 'Anonymous',
+  },
+  { id: 121, quote: 'Never. Give Up', author: 'Anonymous' },
+  { id: 122, quote: "There's always time to complain", author: 'Anonymous' },
+  {
+    id: 123,
+    quote: "You don't have hates. No one knows who you are",
+    author: 'Anonymous',
+  },
+  {
+    id: 124,
+    quote:
+      'Every morning, wake up and scream your dreams into the garbage where they belong',
+    author: 'Anonymous',
+  },
+  {
+    id: 125,
+    quote: "Before you judge someone else, remember you're a piece of shit too",
+    author: 'Anonymous',
+  },
+  {
+    id: 126,
+    quote: 'Its a beautiful day to be miserable',
+    author: 'Anonymous',
+  },
+  {
+    id: 127,
+    quote: 'Its a beautiful day to shut the fuck up',
+    author: 'Anonymous',
+  },
+  { id: 128, quote: "You're not special", author: 'Anonymous' },
+  { id: 129, quote: "Don't start believing in yourself", author: 'Anonymous' },
+  { id: 130, quote: "You family only loves you because they have to", author: 'Anonymous' },
+  { id: 131, quote: "Zombies eat brains. You're safe", author: 'Anonymous' },
+
+  //   { id: 132, quote: "xxxx", author: 'Anonymous' },
+]

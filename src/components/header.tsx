@@ -1,12 +1,13 @@
 import { Moon, Sun } from 'lucide-react'
 import { Button } from '@/components/shadcn/button'
 import { useTheme } from '@/lib/theme-context'
+import { Link } from '@tanstack/react-router'
 
 export function Header() {
   const { theme, toggleTheme } = useTheme()
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 md:max-w-2xl mx-auto  ">
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between px-4">
         <div className="flex items-center gap-6">
           <a href="/" className="flex items-center space-x-2">
@@ -14,6 +15,12 @@ export function Header() {
           </a>
         </div>
 
+        <Link to="/quote">
+          <Button>quotes</Button>
+        </Link>
+        <Link to="/apis">
+          <Button variant={'outline'}>API's</Button>
+        </Link>
         <nav className="flex items-center gap-4">
           <Button
             variant="ghost"
