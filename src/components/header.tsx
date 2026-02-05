@@ -5,11 +5,11 @@ import { Link } from '@tanstack/react-router'
 import DemotIcon from '@/assets/demot-icon'
 
 export function Header() {
-  const { theme, toggleTheme } = useTheme()
+  const { toggleTheme } = useTheme()
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 md:max-w-2xl mx-auto  ">
-      <div className="container flex h-14 max-w-screen-2xl items-center justify-between px-4">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 md:max-w-2xl mx-auto max-w-screen-3xl">
+      <div className="container flex h-14  items-center justify-between px-4">
         <div className="flex items-center gap-6">
           <a href="/" className="flex items-center space-x-2">
             <span className="font-bold text-xl">

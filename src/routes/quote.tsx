@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { Button } from '@/components/shadcn/button'
 import { Card } from '@/components/shadcn/card'
 import { Demot } from '@/types/demotivation'
+import { Calendar7day } from '@/components/shadcn/calendar7day'
 
 export const Route = createFileRoute('/quote')({
   component: RouteComponent,
@@ -30,8 +31,9 @@ function RouteComponent() {
   }, [])
 
   return (
-    <div className="pt-20 px-4 md:px-16">
-      <Card className="p-8 mb-8 max-w-full md:max-w-2xl mx-auto shadow-xl">
+    <div className="p-4 w-full max-w-full md:max-w-3xl mx-auto">
+      {/* <MiniCalendarDemo /> */}
+      <Card className="p-8 mb-4 shadow-xl w-full">
         {loading ? (
           <div className="text-center py-12">
             <div className="animate-spin h-8 w-8 border-4 border-primary border-t-transparent rounded-full mx-auto"></div>
@@ -51,15 +53,27 @@ function RouteComponent() {
           </p>
         )}
       </Card>
-      <div className="fixed bottom-16 w-full mx-auto flex justify-center">
-        <Button
-          onClick={fetchRandomQuote}
-          disabled={loading}
-          size="lg"
-          className="px-4 text-black shadow-xl"
-        >
-          {loading ? 'Loading...' : 'Get Another Quote'}
-        </Button>
+      <div className="flex sm:flex-row flex-col justify-between items-center">
+        {/* <ClockTime date={date} /> */}
+        <div className="flex justify-center sm:justify-end items-center ">
+          <Calendar7day
+            view="week"
+            mode="single"
+            className="rounded-lg border"
+          />
+        </div>
+        <div className="m-4 flex justify-center mx-auto items-center">
+          <Button
+            onClick={fetchRandomQuote}
+            disabled={loading}
+            size="lg"
+            className="px-4 text-black shadow-xl"
+          >
+            {loading ? 'Loading...' : 'Get New Quote'}
+          </Button>
+        </div>
+
+        {/* <ClockDate /> */}
       </div>
     </div>
   )

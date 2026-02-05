@@ -1,7 +1,7 @@
 import DemotIcon from '@/assets/demot-icon'
 import { Button } from '@/components/shadcn/button'
 import { createFileRoute, Link } from '@tanstack/react-router'
-
+  
 export const Route = createFileRoute('/')({ component: App })
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
           <Button variant={'outline'}>View Quotes</Button>
         </Link>
       </div>
+
     </div>
   )
 }

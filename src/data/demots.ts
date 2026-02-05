@@ -91,13 +91,13 @@ export const DemotList = [
   {
     id: 17,
     quote:
-      'I always wanted to be somebody, but now I realize I should have been more specific.',
+      'You always wanted to be somebody, but now you realize you should have been more specific.',
     author: 'Lily Tomlin',
   },
   {
     id: 18,
-    quote: 'People say nothing is impossible, but I do nothing every day.',
-    author: 'Winnie the Pooh',
+    quote: 'People say nothing is impossible, but you do nothing every day.',
+    author: 'Carc',
   },
   {
     id: 19,
@@ -142,7 +142,7 @@ export const DemotList = [
   {
     id: 26,
     quote:
-      'Always remember you’re someone’s reason to smile because you’re a joke.',
+      'Always remember, you’re someone’s reason to smile... you’re a joke!',
     author: 'Anonymous',
   },
   {
@@ -248,7 +248,7 @@ export const DemotList = [
     id: 44,
     quote:
       'Doing nothing is very hard to do… you never know when you’re finished.',
-    author: 'Anonymous',
+    author: 'R. Hagen',
   },
   {
     id: 45,
@@ -291,7 +291,7 @@ export const DemotList = [
   {
     id: 52,
     quote: 'The best things in life are actually really expensive.',
-    author: 'Anonymous',
+    author: 'James Rushford',
   },
   {
     id: 53,
@@ -312,7 +312,7 @@ export const DemotList = [
   {
     id: 56,
     quote:
-      'It’s true - hard work never killed anybody. I guess you though, why take the chance.',
+      'It’s true - hard work never killed anybody. I guess you though why risk it.',
     author: 'Anonymous',
   },
   {
@@ -323,7 +323,7 @@ export const DemotList = [
   {
     id: 58,
     quote: 'Meetings – none of us is as dumb as all of us.',
-    author: 'Anonymous',
+    author: 'Katie Rushford',
   },
   {
     id: 59,
@@ -695,6 +695,15 @@ export const DemotList = [
     quote: 'I could agree with you but then we’d both be wrong',
     author: 'S.Abendroth',
   },
+  {
+    id: 135,
+    quote: '*Mistakes are a normal part of life.',
+    author: '*For you.',
+  },
+
+  /*
+  | [Demotivation](https://demotivation-dun.vercel.app/apis) | Demotivation Quotes | No | Yes | Yes |
+  */
 
   //   { id: 132, quote: "xxxx", author: 'Anonymous' },
 ]
